@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "julialang.language-julia",
+    "0h7z.vscode-julia-format",
+    "ms-toolsai.jupyter",
+    "nefrob.vscode-just-syntax"
+  ]
+}

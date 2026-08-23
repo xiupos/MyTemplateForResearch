@@ -1,10 +1,18 @@
 name = "MyTemplateForResearch"
 uuid = "eb6fa963-4e0d-4c99-a1ca-a784a4a0c889"
-authors = ["xiupos <me@xiupos.net> and contributors"]
 version = "1.0.0-DEV"
+authors = ["xiupos <me@xiupos.net> and contributors"]
+
+[deps]
+LaTeXStrings = "b964fa9f-0449-5b57-a5c2-d3ea65f4040f"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+PlutoUI = "7f904dfe-b85e-4ff6-b463-dae2292396a8"
 
 [compat]
-julia = "1.10.10"
+LaTeXStrings = "1.4.1"
+LinearAlgebra = "1.12.0"
+PlutoUI = "0.7.83"
+julia = "1.12.7"
 
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"

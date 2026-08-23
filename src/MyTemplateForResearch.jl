@@ -1,5 +1,17 @@
 module MyTemplateForResearch
 
+using LinearAlgebra
+
 # Write your package code here.
 
-end
+# -----------------------------------------------
+# utils
+include("utils/calc.jl")
+export drop_noise
+
+# -----------------------------------------------
+# core
+include("core/main.jl")
+# export
+
+end # module MyTemplateForResearch
