@@ -6,6 +6,8 @@
 # 1. Clone the template
 git clone git@github.com:xiupos/MyTemplateForResearch.git YourProjectName
 cd YourProjectName
+rm -rf .git && git init .
+# ... or use "Use this template" on GitHub
 
 # 2. Initialize the project
 just init

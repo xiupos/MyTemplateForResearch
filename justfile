@@ -45,6 +45,3 @@ init:
   # Initialize package environment
   rm Manifest*.toml
   julia --project=. -e 'using Pkg; Pkg.instantiate()'
-
-  # Initialize a new git repository
-  rm -rf .git && git init .
