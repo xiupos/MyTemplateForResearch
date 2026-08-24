@@ -1,5 +1,13 @@
 # MyTemplateForResearch
 
+## Requirements
+
+- [Julia](https://julialang.org/downloads/)
+- [Just](https://just.systems/man/en/installation.html)
+- [VSCode](https://code.visualstudio.com/Download) (or your favorite editor)
+- [Pandoc](https://pandoc.org/installing.html) (My defaults are available on [my dotfiles](https://github.com/xiupos/dotfiles/tree/main/private_dot_local/private_share/pandoc))
+- [Pluto.jl](https://plutojl.org/#install) (Optional)
+
 ## Getting Started
 
 ```sh
